@@ -35,8 +35,6 @@ class ViewController: UIViewController {
         index2 = Int.random(in: 0...5)
         
         //下标超过范围,如diceArr[6],会出现错误: 数组越界/index out of range
-        diceImageView1.image = UIImage(named: diceArr[index1])
-        diceImageView2.image = UIImage(named: diceArr[index2])
     }
 
     //用户摇晃手机之后执行
