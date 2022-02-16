@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     var index1: Int = 0
     var index2: Int = 0
+    var index3: Int = 0
+    var index4: Int = 0
     
     @IBOutlet weak var diceImageView1: UIImageView!
     
